@@ -47,6 +47,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
     toyCollection.append(cardDiv)
 
+    // update likes
+    likeButton.addEventListener("click", (evt) => {
+      toyObj.likes += 1
+      fetch(`http://localhost:3000/toys/${toyObj.id}`, {
+        method: 'PATCH',
+        headers: {
+          'content-type': 'application/json'
+        },
+        body: JSON.stringify({
+          likes: toyObj.likes
+        })
+      })
+      .then(res => res.json())
+      .then((updatedToy) => {
+        likes.innerText = `${updatedToy.likes} Likes`
+      })
+  
+    })
+
   }
 
   toyForm.addEventListener("submit", (evt) => {
@@ -63,12 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
       body: JSON.stringify({
         name: toyName,
         image: toyImage,
-        likes: 1
+        likes: 0
       })
     })
     .then(res => res.json())
     .then((toyObj) => {
       turnToyIntoHTML(toyObj)
+      evt.target.reset()
     })
   })
 

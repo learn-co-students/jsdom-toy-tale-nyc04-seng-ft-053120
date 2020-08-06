@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 7
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 13
     },
     {
       "id": 3,
@@ -47,6 +47,23 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Manon",
+      "image": "https://flatironschool.zoom.us/j/96265051446?pwd=K2FUVnRhYVM1YTlFMS9PVEJLWDRSZz09",
+      "id": 9
+    },
+    {
+      "name": "Kelsey",
+      "image": "https://d.newsweek.com/en/full/822411/pikachu-640x360-pokemon-anime.jpg?w=1600&h=1600&q=88&f=b65592079ef009b8b80897ddb8660b29",
+      "likes": 15,
+      "id": 10
+    },
+    {
+      "name": "sdfds",
+      "image": "https://d.newsweek.com/en/full/822411/pikachu-640x360-pokemon-anime.jpg?w=1600&h=1600&q=88&f=b65592079ef009b8b80897ddb8660b29",
+      "likes": 5,
+      "id": 11
     }
   ]
 }

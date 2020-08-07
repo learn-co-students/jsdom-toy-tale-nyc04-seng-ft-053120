@@ -57,7 +57,7 @@ fetch("http://localhost:3000/toys")
         body: JSON.stringify({
           likes: toyObj.likes 
         })
-      }) // FETCH ENDS 
+      }) 
           .then(resp => resp.json())
           .then((updatedLikes) => {
             // UPDATING WHAT THE USER SEES ON THE DOM

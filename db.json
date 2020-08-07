@@ -47,6 +47,16 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Teddy Bear",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buildabear.com%2Ftimeless-teddy%2F026518.html&psig=AOvVaw3_5OvUpTHBLJW9ZjCnsfgr&ust=1596834490473000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDtvJa-h-sCFQAAAAAdAAAAABAE",
+      "id": 9
+    },
+    {
+      "name": "Teddy",
+      "image": "https://www.buildabear.com/on/demandware.static/-/Sites-buildabear-master/default/dwb8ba281b/26518x.jpg",
+      "id": 10
     }
   ]
 }

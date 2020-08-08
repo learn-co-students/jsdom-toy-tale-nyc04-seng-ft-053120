@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 31
     },
     {
       "id": 2,
@@ -40,13 +40,55 @@
       "id": 7,
       "name": "Hamm",
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 0
+    },
+    {
+      "name": "maria",
+      "image": "maria",
+      "likes": 3,
+      "id": 9
+    },
+    {
+      "name": "maria",
+      "image": "maria",
+      "likes": 1,
+      "id": 10
+    },
+    {
+      "name": "maria",
+      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "maria",
+      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "maria",
+      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "maria",
+      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "maria",
+      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
+      "likes": 0,
+      "id": 15
     }
   ]
 }
